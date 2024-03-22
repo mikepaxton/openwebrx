@@ -1,0 +1,115 @@
+{
+    "version": 8,
+    "sdrs": {
+        "rtlsdr": {
+            "name": "NESDR Smart V.5",
+            "type": "rtl_sdr",
+            "profiles": {
+                "70cm": {
+                    "name": "70cm Repeaters",
+                    "center_freq": 438800000,
+                    "rf_gain": 25.4,
+                    "samp_rate": 2048000,
+                    "start_freq": 439275000,
+                    "start_mod": "nfm"
+                },
+                "2m": {
+                    "name": "2m",
+                    "center_freq": 155000000,
+                    "rf_gain": "auto",
+                    "samp_rate": 2048000,
+                    "start_freq": 154890000,
+                    "start_mod": "nfm"
+                },
+                "5d29b831-8a84-4813-bd77-92ea3bfec028": {
+                    "name": "NOAA Newport WX",
+                    "center_freq": 162550500,
+                    "rf_gain": 20.7,
+                    "samp_rate": 2048000,
+                    "start_freq": 162550500,
+                    "start_mod": "nfm"
+                },
+                "ec404650-bf1b-4db5-8d99-031d83164139": {
+                    "name": "Radio 88-95",
+                    "center_freq": 91500000,
+                    "samp_rate": 3200000,
+                    "start_freq": 90500000,
+                    "start_mod": "nfm",
+                    "rf_gain": 25.4
+                },
+                "a9c826ce-6f6b-46a0-b1cb-384f8cd885ce": {
+                    "name": "GhostNet 10",
+                    "rf_gain": 25.4,
+                    "center_freq": 28108500,
+                    "samp_rate": 2400000,
+                    "start_freq": 28108,
+                    "start_mod": "js8"
+                },
+                "87bf533c-6b23-4729-8a2a-c68223b98a28": {
+                    "name": "Radio 95-102",
+                    "center_freq": 98500000,
+                    "samp_rate": 3200000,
+                    "start_freq": 98500000,
+                    "start_mod": "nfm"
+                },
+                "fbe5c77d-0b56-4812-b125-426f72d1110c": {
+                    "name": "Radio 102-107",
+                    "center_freq": 104500000,
+                    "samp_rate": 3200000,
+                    "start_freq": 104500000,
+                    "start_mod": "nfm"
+                },
+                "b2f8cd8a-b1ef-4852-bd0b-9825ad0af7b1": {
+                    "name": "ADS-B 1Ghz",
+                    "rf_gain": "auto",
+                    "center_freq": 1090000000,
+                    "samp_rate": 3200000,
+                    "start_freq": 1090000000,
+                    "start_mod": "adsb"
+                },
+                "18b36e55-cda9-49af-b29a-f7bd9ec34fe1": {
+                    "name": "Packet Radio",
+                    "center_freq": 144390000,
+                    "samp_rate": 3200000,
+                    "start_freq": 144390000,
+                    "start_mod": "packet",
+                    "rf_gain": "auto"
+                }
+            },
+            "rf_gain": 25.4
+        }
+    },
+    "receiver_name": "[Callsign]",
+    "receiver_location": "Otis, Oregon",
+    "receiver_asl": 115,
+    "receiver_admin": "",
+    "receiver_gps": {
+        "lat": 47.0,
+        "lon": 19.0
+    },
+    "photo_title": "",
+    "photo_desc": "",
+    "max_clients": 10,
+    "receiver_keys": [],
+    "waterfall_scheme": "GoogleTurboWaterfall",
+    "fft_fps": 9,
+    "fft_size": 4096,
+    "fft_voverlap_factor": 0.3,
+    "waterfall_levels": {
+        "min": -88.0,
+        "max": -20.0
+    },
+    "waterfall_auto_levels": {
+        "min": 3.0,
+        "max": 10.0
+    },
+    "waterfall_auto_level_default_mode": false,
+    "waterfall_auto_min_range": 50,
+    "audio_compression": "adpcm",
+    "fft_compression": "adpcm",
+    "tuning_precision": 2,
+    "google_maps_api_key": "",
+    "map_position_retention_time": 7200,
+    "callsign_service": "None",
+    "aircraft_tracking_service": "None"
+}

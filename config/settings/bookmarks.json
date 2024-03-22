@@ -1,0 +1,177 @@
+[
+    {
+        "name": "CG Port. Aux",
+        "frequency": 143475000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Tones",
+        "frequency": 153372300.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Newport Fire Ta",
+        "frequency": 154325000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "N Lincoln FD Disp",
+        "frequency": 154370000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "LCFD Fire 2 Tac",
+        "frequency": 154400000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "LCFD Fire 1 Disp",
+        "frequency": 154430000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "OSP G Ronde Disp",
+        "frequency": 154687500.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Unkown Police",
+        "frequency": 154725200.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "OSP Yachats",
+        "frequency": 154785000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "LCSO Jail",
+        "frequency": 154875000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Tolido Fire West Disp",
+        "frequency": 154889000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Lincoln PD Disp",
+        "frequency": 154890000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "LSCO Sheriff",
+        "frequency": 154935000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "LCSO Sheriff",
+        "frequency": 154965000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "LCSO DispLaw1",
+        "frequency": 155070000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "LCSO SecLaw2",
+        "frequency": 155145000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "PacWest Amb EMS Disp",
+        "frequency": 155175000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "OSP Rose Lodge",
+        "frequency": 155310000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "EMS MEDNET Hospital",
+        "frequency": 155340000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Sameritan Hosp",
+        "frequency": 155400000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Lincoln PD",
+        "frequency": 155535000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "OSP Lincoln?",
+        "frequency": 155580000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Newport PD Disp",
+        "frequency": 156625000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "CG Mar. Distress",
+        "frequency": 156800000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "OSP Newport",
+        "frequency": 159310000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "CG WX NavWarn",
+        "frequency": 161650000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "NOAA Newport WX",
+        "frequency": 162550500.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Oregon Repeater",
+        "frequency": 172312500.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Lincoln School Dist",
+        "frequency": 463225000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Tolido Fire East Disp",
+        "frequency": 152712500.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Sheriff Hebo Disp",
+        "frequency": 154720000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Sheriff Hebo Tac",
+        "frequency": 155300000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Tillamook Fire Disp",
+        "frequency": 154355000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Tillamook Fire Tac1",
+        "frequency": 154250000.0,
+        "modulation": "nfm"
+    },
+    {
+        "name": "Tillamook Fire Tac2",
+        "frequency": 155265000.0,
+        "modulation": "nfm"
+    }
+]

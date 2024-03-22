@@ -1,0 +1,14 @@
+services:
+  openwebrx:
+    image: jketterl/openwebrx:latest
+    container_name: openwebrx
+    volumes:
+      - ./config/settings:/var/lib/openwebrx
+      - ./config/etc:/etc/openwebrx
+    ports:
+      - 8150:8073
+    privileged: true
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+    tmpfs:
+      - /tmp/openwebrx
