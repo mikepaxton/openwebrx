@@ -8,6 +8,9 @@ services:
     ports:
       - 8150:8073
     privileged: true
+    environment:
+      - OPENWEBRX_ADMIN_USER=your_user
+      - OPENWEBRX_ADMIN_PASSWORD= your_password
     devices:
       - /dev/bus/usb:/dev/bus/usb
     tmpfs:
