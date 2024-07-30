@@ -7,7 +7,7 @@ services:
       - ./config/etc:/etc/openwebrx
     ports:
       - 8100:8073
-    privileged: trued
+    privileged: true
     devices:
       - /dev/bus/usb:/dev/bus/usb
     tmpfs:
