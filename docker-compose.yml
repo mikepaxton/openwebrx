@@ -6,11 +6,8 @@ services:
       - ./config/settings:/var/lib/openwebrx
       - ./config/etc:/etc/openwebrx
     ports:
-      - 8150:8073
-    privileged: true
-    environment:
-      - OPENWEBRX_ADMIN_USER=your_user
-      - OPENWEBRX_ADMIN_PASSWORD= your_password
+      - 8100:8073
+    privileged: trued
     devices:
       - /dev/bus/usb:/dev/bus/usb
     tmpfs:
