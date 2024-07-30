@@ -33,7 +33,7 @@ The devices variable passes the usb SDR dongle through to the container
       - /dev/bus/usb:/dev/bus/usb
 ```
 
-To cut down on read/writes to the main drive, we use a temp file system in memory.
+To cut down on read/writes to hard drive, we create a temp file system in memory.
 ```
  tmpfs:
       - /tmp/openwebrx
